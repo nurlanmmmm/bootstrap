@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="awesome.css">
+</head>
+
+<body class="h-100 d-flex flex-column">
+    <nav class="navbar bg-primary navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mobile" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home_awesome.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contacts</a></li>
+                </ul>
+                <div class="row g-1 me-0">
+                    <div class="col-8"><input type="text" class="form-control"></div>
+                    <div class="col-4"><button class="btn btn-warning "><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="m-2 main">
+        <div class="container my-4">
+            <h1>Contact us</h1>
+            <div class="row g-2 ">
+                <div class="col-md-6 p-2">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <div class="alert alert-warning">Please fill in the form</div>
+                        </div>
+                        <form class="row g-3 text-white">
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="name" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="text" name="phone" id="phone" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" name="subject" id="subject" class="form-control">
+                            </div>
+
+                        </form>
+                        <button class="btn btn-outline-warning my-1">send us message</button>
+                    </div>
+                </div>
+                <div class="col-md-6 map ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1274.3096844892311!2d19.129145938926264!3d50.2990326428909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da818c8e6199%3A0xe474b5d0363f4de0!2sOgr%C3%B3dki%20dzia%C5%82kowe%2C%2041-221%20Sosnowiec!5e0!3m2!1str!2spl!4v1684435209171!5m2!1str!2spl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="mt-auto">
+        <div class="py-3 bg-dark text-white">
+            <p class="text-center">All right reserved @2025</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
