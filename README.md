@@ -1,2 +1,0 @@
-# bootstrap
-site with bootstrap
