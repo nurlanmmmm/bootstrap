@@ -1,0 +1,19 @@
+.navbar {
+    background-color: darkblue !important;
+}
+
+@media(min-width: 576px) {
+    .map {
+        iframe {
+            height: 300px;
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .map {
+        iframe {
+            height: 100%;
+        }
+    }
+}
